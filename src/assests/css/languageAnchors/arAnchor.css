@@ -1,0 +1,115 @@
+/*--------------------Debugging layer SATART----------------------
+.header {
+    background-color: tomato !important;
+}
+.btn-header > :first-child > a {
+    background-image: none !important;
+}*/
+/*=================================================================*/
+.dx-toolbar-before .toolbar-button .dx-icon::before{
+    color: black !important;
+    font-size: 22px;
+    position: absolute;
+    left: -15%;
+}
+
+.dx-item-content.dx-toolbar-item-content .toolbar-button[aria-label="/filter-remove.png"] .dx-button-content>img {
+
+    position: relative;
+    height: 20px;
+    width: 20px;
+    margin-top: -2px; 
+    left: 20%;
+
+}
+
+.aside-dialog{
+    direction: rtl;
+}
+
+
+#listModules {
+    direction: rtl !important;
+}
+
+body{
+    text-align: right;
+}
+/*----------------------------- Tabs ----------------------------*/
+.rc-tabs-nav-scroll .rc-tabs-nav {
+    float: right ;
+}
+.rc-tabs-tab .close {
+    left:  7px;
+    right: unset;
+}
+.rc-tabs-tab:not(#tab-0) {
+    padding-right: 10px !important;
+    padding-left: 50px !important;
+}
+
+
+#tab-0.rc-tabs-tab {
+    float: left;
+}
+
+/*------------Aside--------------*/
+aside{
+    direction: rtl;
+}
+
+aside.openned .aside-dialog{
+    right: -10%  ;
+    animation: asideSlideAr 0.4s ;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes asideSlideAr {
+    from {right: -10%;}
+    to {right: 0%;}
+  }
+
+/*--------------Toolbar------------------*/
+
+.dx-toolbar-center .dx-field-label{
+    padding-left: 15px ;
+    text-align: left;
+}
+
+.dx-toolbar-center .dx-field-label{
+    float: right;
+}
+/*==============Text edior===============*/
+.dx-texteditor-input{
+    text-align: right !important;
+}
+.dx-texteditor-buttons-container {
+    left: 0 !important;
+    right: unset !important;
+}
+
+.dx-rtl .dx-texteditor .dx-placeholder, .dx-rtl.dx-texteditor .dx-placeholder {
+    text-align: right;
+    right: 0;
+    left: unset;
+}
+/*----------Selects ---------*/
+.dx-list-item-content{
+    text-align: right !important;
+}
+.dx-form-group.dx-group-colcount-1 .dx-form-group-content{
+    margin-left: 10px;
+}
+
+/*-------------Toolbar------------*/
+
+.aux-toolbar .dx-toolbar-before {
+    left: unset;
+    right: 0px;
+}
+
+.aux-toolbar .dx-toolbar-after {
+    right: unset;
+    left: 0px;
+}

@@ -1,0 +1,142 @@
+/*--------------------Debugging layer----------------------
+.header {
+    background-color: rgb(95, 131, 42) !important;
+}
+.btn-header > :first-child > a {
+    background-image: none !important;
+}*/
+/*========================================================*/
+.dx-toolbar-before .toolbar-button .dx-icon::before{
+    color: black !important;
+    font-size: 22px;
+    position: absolute;
+    left: -35%;
+}
+.dx-datagrid-header-panel .dx-toolbar-items-container .dx-toolbar-before .dx-icon.dx-icon-search{
+    left: 77% !important;
+}
+
+.dx-item-content.dx-toolbar-item-content .toolbar-button[aria-label="/filter-remove.png"] .dx-button-content>img {
+
+    position: relative;
+    height: 20px;
+    width: 20px;
+    margin-top: -2px; 
+    left: -20%;
+
+}
+/*-----Menu-------*/
+#listModules {
+    direction: ltr !important;
+}
+
+#listModules .tile i.ellipsis {
+    right: 4px !important;
+    left: unset !important
+    
+}
+
+div.modulesContainer {
+    height: calc(100vh - 38px) !important;}
+
+#listModules .tile.subMenu > a > ul.sous-menus {
+    left: 230px;
+    transform-origin: left 35%;
+    right: initial;
+}
+
+.module {
+    left: 100px !important;
+    right:  initial;
+}
+
+/*----------------------------Toolbar/search------------------------------*/
+.dx-texteditor-buttons-container {
+    position: absolute;
+    left: 84% !important;
+}
+
+.dx-clear-button-area {
+    margin-right: 10px;
+    margin-left: 0px;
+}
+/*----------------------------- Tabs ----------------------------*/
+.rc-tabs-nav-scroll .rc-tabs-nav {
+    float: left ;
+}
+.rc-tabs-tab .close {
+    left: unset;
+    right: 7px;
+}
+
+.rc-tabs-tab:not(#tab-0) {
+    padding-right: 50px !important;
+    padding-left: 10px !important;
+}
+
+
+#tab-0.rc-tabs-tab {
+    float: right;
+}
+/*------------Aside--------------*/
+aside{
+    direction: ltr;
+}
+
+aside.openned .aside-dialog{
+    left: -10%  ;
+    animation: asideSlideFr 0.4s ;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes asideSlideFr {
+    from {left: -10%;}
+    to {left: 0%;}
+  }
+
+/*----------------Toolbar-----------------*/
+
+.dx-toolbar-center .dx-field-label{
+    padding-right: 15px ;
+    text-align: right;
+}
+
+.dx-toolbar-center .dx-field-label{
+    float: left;
+}
+/*==============Text edior===============*/
+.dx-texteditor-input{
+    text-align: left !important;
+}
+
+.dx-texteditor-buttons-container {
+    right: 0 !important;
+    left: unset !important;
+}
+
+.dx-rtl .dx-texteditor .dx-placeholder, .dx-rtl.dx-texteditor .dx-placeholder {
+    text-align: left;
+    left: 0;
+    right: unset;
+}
+/*----------Selects ---------*/
+.dx-list-item-content{
+    text-align: left !important;
+}
+.dx-form-group.dx-group-colcount-1 .dx-form-group-content{
+    margin-right: 10px;
+}
+/*-------------Toolbar------------*/
+
+.aux-toolbar .dx-toolbar-before {
+    right: unset;
+    left: 0px;
+}
+
+.aux-toolbar .dx-toolbar-after {
+    left: unset;
+    right: 0px;
+}
+
+
